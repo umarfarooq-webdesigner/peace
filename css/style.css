@@ -1,0 +1,506 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: rgb(81, 80, 80);
+}
+p1{
+    color: rgb(81, 80, 80);
+}
+.topcnt{
+    margin-top: 50px;
+}
+@media(max-width : 700px){
+    .topcnt{
+        margin-top: 10px;
+    }    
+}
+.logo img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.nav1 .nav-item{
+    margin-top: 35px;
+}
+.nav1 .nav-item a{
+    color: black;
+}
+.nav1 .nav-item a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.nav1 .nav-item span{
+    color: silver;
+    padding: 4px;
+}
+.topheading{
+    text-align: center;
+}
+.topheading h1{
+    font-size: 80px;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Abril Fatface', cursive;
+}
+.topheading p{
+    font-size: 20px;
+    margin-top: -12px;
+    padding: 0%;
+}
+.nav1 .Subscribe-btn{
+    background-color: #3AB0FF;
+    border: 1px solid #3AB0FF;
+    line-height: 35px;
+    margin-top: 27px;   
+}
+.nav1 .Subscribe-btn a{
+    color: white;
+}
+.nav1 .Subscribe-btn a:hover{
+    text-decoration: none;
+    color: #3AB0FF;
+    background-color: white;
+}
+.nav-item .fa-solid{
+    color: black;
+    font-size: 10px;
+}
+@media(max-width : 700px){
+    .nav1 .nav-item{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .topheading h1{
+        font-size: 55px;
+    }
+    .topheading p{
+        font-size: 13px;
+    }
+    .nav1 .nav-item span{
+        color: white;
+        padding: 0px;
+    }
+    .nav-item .fa-solid{
+        font-size: 15px;
+    }    
+}
+/************************* nav2 *******************************/
+.nav2 .nav-item{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.nav2 .nav-item a{
+    color: gray;
+    margin-left:  10px;
+    margin-right:  10px;
+    line-height: 30px;
+}
+.nav2 .nav-item a:hover{
+    background-color: #3AB0FF;
+    color: white;
+}
+@media(max-width : 700px){
+    .navigation-bar{
+        width: 100%;
+    }
+    .nav2 .nav-item a{
+        margin-left:  0px;
+        margin-right:  0px;
+        padding: 10px;
+        margin-top: 20px;        
+        line-height: 25px;
+    }
+}
+/******************************* top-content ********************************************/
+.content-col{
+    margin-left: 40px;
+}
+.top-content h1{
+    font-family: 'Abril Fatface', cursive;
+}
+.top-content p{
+    font-size: 20px;
+}
+.top-content hr{
+    width: 55%;
+    background-color: rgb(170, 169, 169);
+    height: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+.top-content a{
+    color: #3AB0FF;
+}
+.top-content a:hover{
+    color: #3AB0FF;
+    text-decoration: none;
+}
+.top-content span{
+    padding-left: 12px;
+    padding-right: 12px;
+    color: rgb(170, 169, 169);
+
+}
+.top-content img{
+    width: 810px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#top-img p{
+    font-size: 15px;
+    color: #756c70;
+}
+#top-img hr{
+    width: 100%;
+    margin-bottom: 10px;
+}
+@media(max-width : 700px){
+    .content-col{
+        margin-left: 0px;
+    }
+    .top-content img{
+        width: 100%;
+        height: 300px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .top-content h1{
+        font-size: 30px;
+    }
+    .top-content p{
+        font-size: 17px;
+    }
+    .top-content hr{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .top-content a{
+        font-size: 14px;
+        color: #3AB0FF;
+    }
+    .top-content span{
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+        color: rgb(170, 169, 169);
+    
+    }                       
+}
+/*******************************************************************************/
+#midcontent p{
+  font-size: 15px;
+}
+#line{
+    width: 3px;
+    height: 100px;
+    background-color: black;
+}
+#midcontent h4{
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+#social-links{
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+#social-links .fa-brands, .fa-solid{
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: white;
+}
+#facebook{
+    background-color:#3340b7 ;
+    padding-left: 15.5px;
+    padding-right: 15.5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #3340b7;
+}
+#facebook:hover{
+    color: #3340b7;
+    background-color: white;
+}
+#twitter{
+    background-color:#3AB0FF ;
+    padding: 12px;
+    border: 1px solid #3AB0FF;
+}
+#twitter:hover{
+    color: #3AB0FF;
+    background-color: white;
+}
+#linkedin{
+    background-color:#3984a2 ;
+    padding: 12px;
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+    border: 1px solid #3984a2;
+}
+#linkedin:hover{
+    color: #3984a2;
+    background-color: white;
+}
+#envelope{
+    background-color:#fb2b2b ;
+    padding: 12px;
+    border: 1px solid #fb2b2b;
+}
+#envelope:hover{
+    color: #fb2b2b;
+    background-color: white;
+}
+#midcontent span{
+    text-decoration: underline;
+    color: rgb(81, 80, 80);
+}
+#midcontent ol{
+    color: rgb(81, 80, 80);
+}
+b{
+    color: rgb(19, 19, 19);
+}
+#ol1{
+    margin-left: 50px;
+}
+@media(max-width : 700px){
+    #midcontent h4{
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 800;
+    }
+    #ol1{
+        margin-left: 30px;
+    }
+}
+/******************************* Right-Column ******************************************/
+.img-section{
+    margin-left: 15px;
+}
+.img-section img{
+    width: 300px;
+    margin-top: 50px;
+}
+#img1{
+    margin-top: 110px;
+    height: 250px;    
+}
+#img2{
+    height: 450px;    
+}
+@media(max-width : 700px){
+    .img-section{
+        margin-left: 0px;
+    }
+    .img-section img{
+        width: 100%;
+    }
+    #img1{
+        margin-top: 70px;
+    }
+}
+/******************************* signup-now  ******************************************/
+.signup-now{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/rightcol-img6.jpg);
+    background-size: cover;
+    position: center;
+    height: 600px;    
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 50px;
+}   
+#signup-toph3{
+    color: #84d2f9;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline black;
+}
+#signup-toph3 span{
+    color: #F24C4C;
+    font-size: 50px;
+    margin-left: -2px;
+}
+#signup-topp{
+    color:  yellow;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 12px;
+}
+#signup-h3{
+    text-align: center;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    padding-top: 30px;
+}
+#signup-p{
+    color: yellow;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-weight: 900;
+}
+#signup-btn{
+    background-color: yellow;
+    color: black;
+    font-weight: 900;
+    padding: 8px 25px;
+    border: 1px solid yellow;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+#signup-btn:hover{
+    color: yellow;
+    background-color: transparent;
+}
+@media(max-width : 700px){
+    .signup-now{
+        height: 580px;    
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    #signup-btn{
+    margin-left: 90px;
+    }
+}
+/*******************************  Email-box  ******************************************/
+.Email-box{
+    margin-left: 15px;
+    margin-top: 50px;
+    background-color: #0e6e91;
+    width: 300px;
+    padding: 40px 15px;
+}
+.Email-box h3{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+}
+.Email-box hr{
+        background-color: white;
+        justify-content: center;
+}
+.Email-box p{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+}
+.Email-box input{
+    width: 180px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.Email-box button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 0px solid  white;
+    margin-left: 3px;
+    font-weight: 700;
+}
+.Email-box button:hover{
+color: #fb2b2b;
+}
+@media(max-width : 700px){
+    .Email-box{
+    width: 100%;
+    padding: 40px 15px;
+    margin-left: 0px;
+    }
+}
+
+/*******************************  Email-box  ******************************************/
+.MTI-box{
+    text-align: center;
+    border: 8px solid maroon;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 15px;
+    width: 300px;
+    height: 450px;
+}
+.MTI-box img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#MTI{
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+#mti{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -20px;
+    text-decoration: underline;
+}
+.MTI-box p{
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+.MTI-box b{
+    font-size: 14px;
+}
+.MTI-box a{
+    border: 1px solid maroon;
+    padding: 10px;
+    background: linear-gradient(red, maroon);
+    color: white;
+    border: 2px solid maroon;
+}
+.MTI-box a:hover{
+    text-decoration: none;
+    color: maroon;
+    background: linear-gradient(rgb(251, 250, 250),rgb(252, 180, 180));
+    
+}
+@media(max-width : 700px){
+    .MTI-box{
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.red{
+    border: 1px solid red;
+}
+.blue{
+    border: 1px solid blue;
+}
