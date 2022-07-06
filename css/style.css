@@ -16,7 +16,7 @@ p1{
 }
 @media(max-width : 700px){
     .topcnt{
-        margin-top: 10px;
+        margin-top: 100px;
     }    
 }
 .logo img{
